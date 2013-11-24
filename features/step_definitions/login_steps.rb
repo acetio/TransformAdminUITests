@@ -1,7 +1,7 @@
 require "selenium-webdriver"
 
 Given /^I am on the Login Screen$/ do
-  @selenium.get "http://transformadmin.dev/"
+  @selenium.get "#{@base_url}"
 end
 
 Given(/^I can see the username box$/) do

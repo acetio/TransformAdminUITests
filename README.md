@@ -24,6 +24,7 @@ And copy it to
 
 ###<a name="Run"></a>Run Tests###  
 In the folder where you can find this readme file run   
-``cucumber``
+``BASE_URL="http://transformadmin.dev/" cucumber``  
+Where BASE_URL points to the site you would like to test
 
 

@@ -12,6 +12,7 @@ Before do |scenario|
     Process.detach(pid)
   end
   sleep(10)
+  @base_url = ENV['BASE_URL']
   @selenium = Selenium::WebDriver.for :firefox
   @wait = Selenium::WebDriver::Wait.new :timeout => 30
   @accept_next_alert = true
