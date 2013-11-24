@@ -4,7 +4,8 @@ Feature: Running a test
 
 Scenario: Login Test
   Given I am on the Login Screen
-  And I can see the username box
-  And I can see the password box
-  And I can see the login button
-  
+  And I can see the login form
+  And I enter the username 'username'
+  And I enter the password 'password'
+  And I click the login button
+  Then I should see the Projects Screen
