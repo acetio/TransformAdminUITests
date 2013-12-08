@@ -1,1 +1,1 @@
-require 'calabash-cucumber/cucumber'
+require 'cucumber'
